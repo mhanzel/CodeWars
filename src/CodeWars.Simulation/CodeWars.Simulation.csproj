@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <Platforms>AnyCPU;x64</Platforms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CodeWars.1kyu\CodeWars.1kyu.csproj" />
+    <ProjectReference Include="..\CodeWars.2kyu\CodeWars.2kyu.csproj" />
+    <ProjectReference Include="..\CodeWars.3kyu\CodeWars.3kyu.csproj" />
+    <ProjectReference Include="..\CodeWars.4kyu\CodeWars.4kyu.csproj" />
+    <ProjectReference Include="..\CodeWars.5kyu\CodeWars.5kyu.csproj" />
+    <ProjectReference Include="..\CodeWars.6kyu\CodeWars.6kyu.csproj" />
+    <ProjectReference Include="..\CodeWars.7kyu\CodeWars.7kyu.csproj" />
+  </ItemGroup>
+
+</Project>

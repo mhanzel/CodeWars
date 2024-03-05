@@ -1,0 +1,49 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+
+    <IsPackable>false</IsPackable>
+
+    <Platforms>AnyCPU;x64</Platforms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.9.0" />
+    <PackageReference Include="NUnit" Version="4.1.0" />
+    <PackageReference Include="NUnit3TestAdapter" Version="4.5.0" />
+    <PackageReference Include="NUnit.Analyzers" Version="4.0.1">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="coverlet.collector" Version="6.0.1">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CodeWars.1kyu\CodeWars.1kyu.csproj" />
+    <ProjectReference Include="..\CodeWars.2kyu\CodeWars.2kyu.csproj" />
+    <ProjectReference Include="..\CodeWars.3kyu\CodeWars.3kyu.csproj" />
+    <ProjectReference Include="..\CodeWars.4kyu\CodeWars.4kyu.csproj" />
+    <ProjectReference Include="..\CodeWars.5kyu\CodeWars.5kyu.csproj" />
+    <ProjectReference Include="..\CodeWars.6kyu\CodeWars.6kyu.csproj" />
+    <ProjectReference Include="..\CodeWars.7kyu\CodeWars.7kyu.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Using Include="CodeWars._1kyu.kyus" />
+    <Using Include="CodeWars._2kyu.kyus" />
+    <Using Include="CodeWars._3kyu.kyus" />
+    <Using Include="CodeWars._4kyu.kyus" />
+    <Using Include="CodeWars._5kyu.kyus" />
+    <Using Include="CodeWars._6kyu.kyus" />
+    <Using Include="CodeWars._7kyu.kyus" />
+    <Using Include="NUnit.Framework" />
+    <Using Include="NUnit.Framework.Legacy" />
+  </ItemGroup>
+
+</Project>
